@@ -1,0 +1,27 @@
+include ../mixins/functions
+
+.container
+
+    .header-ecored
+        h1 Referencias bibliográficas
+
+    .jumbotron.bg-white.referencias
+        +referenciaItem("Eliyahu M., M. and Cox, J., (2005). LA META. 3rd ed. Argentina: Ediciones Díaz de Santos.", "")
+        +referenciaItem("Gutiérrez Pulido, H., (2010). Calidad Total Y Productividad. México: Mcgraw-Hill Interamericana Editores, S.A. de C.V.", "")
+        +referenciaItem("Pérez, León y Luis Miguel, (1990). Control de calidad: generalidades. Servicio Nacional de aprendizaje (SENA).", "")
+
+        .row.justify-content-between.align-items-center
+
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-picture-o.fa-2x.text-center
+                        p.text-center.flex-grow-1 Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a>
+
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-creative-commons.fa-2x.text-center
+                        p.text-center.flex-grow-1 Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a>            
